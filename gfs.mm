@@ -17,7 +17,7 @@
 <node CREATED="1358761487053" ID="6auohkb7tm9qndj71ktuef6kli" MODIFIED="1358761487053" TEXT="huge files"/>
 <node CREATED="1358761487053" ID="0qrgj771psf626vkb8dboe1bi0" MODIFIED="1358761878178" TEXT="most files are mutated by appending rather than overwritting, no random writes."/>
 </node>
-<node CREATED="1358761487053" ID="4o8ig00i6p2g63c04r3doirrlr" MODIFIED="1358928026283" POSITION="right">
+<node CREATED="1358761487053" FOLDED="true" ID="4o8ig00i6p2g63c04r3doirrlr" MODIFIED="1359012360234" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -284,7 +284,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1358912202695" ID="ID_1433489138" MODIFIED="1358928599379" POSITION="left" TEXT="System interaction">
+<node CREATED="1358912202695" FOLDED="true" ID="ID_1433489138" MODIFIED="1359012356464" POSITION="left" TEXT="System interaction">
 <node CREATED="1358912255311" ID="ID_521952089" MODIFIED="1358923108400">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -439,7 +439,7 @@
 <node CREATED="1358928672691" ID="ID_1229676701" MODIFIED="1358928747198" TEXT="master revokes any outstanding leases"/>
 <node CREATED="1358928712147" ID="ID_1526144799" MODIFIED="1358928804053" TEXT="master logs the operation to disk, then applies this log to its in-memory state by duplicating the metadata for the file"/>
 </node>
-<node CREATED="1358930278436" ID="ID_1414263556" MODIFIED="1358932166229">
+<node CREATED="1358930278436" ID="ID_1414263556" MODIFIED="1359009347848">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -451,7 +451,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1358930297827" ID="ID_23101073" MODIFIED="1358931969557" TEXT="namespace manage &amp; locking">
+<node CREATED="1358930297827" FOLDED="true" ID="ID_23101073" MODIFIED="1358996675183" TEXT="namespace manage &amp; locking">
 <node CREATED="1358931252071" ID="ID_1480188886" MODIFIED="1358931966577">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -509,7 +509,250 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1358932166230" ID="ID_1698674309" MODIFIED="1358932173324" TEXT="replica placement"/>
+<node CREATED="1358932166230" FOLDED="true" ID="ID_1698674309" MODIFIED="1359012012217" TEXT="replica placement">
+<node CREATED="1358995834075" ID="ID_205842695" MODIFIED="1358999175191">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      purpose
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1358995022551" ID="ID_1648548426" MODIFIED="1358995093922" TEXT="maximize data reliability &amp; availability"/>
+<node CREATED="1358995043523" ID="ID_336320769" MODIFIED="1358995054770" TEXT="maximize network bandwidth utiliztion"/>
+</node>
+<node CREATED="1358996050215" FOLDED="true" ID="ID_647851547" MODIFIED="1358999556940" TEXT="measure">
+<node CREATED="1358996123816" ID="ID_842893906" MODIFIED="1358999187754">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>spread replicas across machines: </b>satisfy the purpose&#160;above
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1358996152386" ID="ID_1830870470" MODIFIED="1358996258582">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <b>spread replicas across racks: </b>ensures some replicas of a chunk avaliable even if entire rack dies
+  </body>
+</html>
+</richcontent>
+<node CREATED="1358996281522" ID="ID_56336273" MODIFIED="1358996666637">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#23545;&#20110;&#19968;&#20010;chunk&#30340;read traffic&#21487;&#20197;&#25226;&#22810;&#20010;rack&#30340;&#24102;&#23485;&#32858;&#38598;&#36215;&#26469;&#65288;exploit the aggregate bandwidth of multiple racks&#65289;
+      </li>
+      <li>
+        write traffic&#21017;&#35201;&#27969;&#32463;&#22810;&#20010;racks&#65292;&#36825;&#26159;&#19968;&#20010;&#33258;&#24895;&#30340;tradeoff&#65292;&#27605;&#31455;&#35835;&#22810;&#20889;&#23569;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1358999563562" ID="ID_348636489" MODIFIED="1359007881438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      C/R/R
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1358999572874" ID="ID_918140697" MODIFIED="1359007907317" TEXT="Creation">
+<node CREATED="1358999588965" ID="ID_1750374868" MODIFIED="1358999599749" TEXT="place new replicas on chunkservers"/>
+<node CREATED="1358999600941" ID="ID_1948733979" MODIFIED="1358999617817" TEXT="limit the number of recent creations on each chunkservers"/>
+<node CREATED="1359007908614" ID="ID_359834556" MODIFIED="1359007921487" TEXT="spread replicas of a chunk across racks"/>
+</node>
+<node CREATED="1358999622140" ID="ID_692605267" MODIFIED="1358999633176" TEXT="re-replication">
+<node CREATED="1359008838683" ID="ID_255160823" MODIFIED="1359008899299" TEXT="&#x5982;&#x679c;avaliable number of replicas&#x5c0f;&#x4e8e;&#x7528;&#x6237;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x76ee;&#x6807;&#x503c;&#xff0c;&#x5c31;&#x7acb;&#x5373;&#x8fdb;&#x884c;&#x6b64;&#x52a8;&#x4f5c;&#x3002;"/>
+</node>
+<node CREATED="1358999634424" ID="ID_182974963" MODIFIED="1358999639889" TEXT="Rebalancing">
+<node CREATED="1359009191793" ID="ID_14248109" MODIFIED="1359009336641">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>periodically</b>
+    </p>
+    <p>
+      examime current replica distribution
+    </p>
+    <p>
+      move replicas for <b>better disk space &amp; load balance</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1359009347848" FOLDED="true" ID="ID_1888848750" MODIFIED="1359012300574" TEXT="GC">
+<node CREATED="1359009435043" ID="ID_1040017787" MODIFIED="1359010646470">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;app&#21024;&#38500;&#25991;&#20214;&#65306;
+    </p>
+    <ul>
+      <li>
+        master&#35760;&#24405;&#26085;&#24535;
+      </li>
+      <li>
+        &#34987;&#21024;&#38500;&#30340;file&#34987;&#37325;&#21629;&#21517;&#20026;&#19968;&#20010;&#21253;&#21547;&#21024;&#38500;&#26102;&#38388;&#25139;&#30340;&#38544;&#34255;&#25991;&#20214;
+      </li>
+      <li>
+        &#38544;&#34255;&#25991;&#20214;&#36807;&#26399;&#65288;&#36807;&#26399;&#26102;&#38388;&#21487;&#37197;&#32622;&#65289;&#20250;&#22312;master&#25195;&#25551;fs namespace&#26102;&#24443;&#24213;&#21024;&#38500;&#12290;
+      </li>
+      <li>
+        &#22312;&#36807;&#26399;&#20043;&#21069;&#65292;&#34987;&#21024;&#38500;&#30340;&#25991;&#20214;&#20381;&#28982;&#21487;&#20197;&#36890;&#36807;&#26032;&#25991;&#20214;&#21517;&#65288;&#38544;&#34255;&#25991;&#20214;&#25991;&#20214;&#21517;&#65289;&#35835;&#21462;&#65292;&#20063;&#21487;&#20197;&#36890;&#36807;&#25226;&#21517;&#23383;&#25913;&#22238;&#21435;&#26469;&#25764;&#38144;&#21024;&#38500;&#25805;&#20316;&#12290;
+      </li>
+      <li>
+        &#20174;namespace&#21024;&#38500;&#65292;&#25152;&#26377;&#20869;&#23384;&#20013;&#30340;metadata&#20063;&#20250;&#34987;&#21024;&#38500;&#12290;
+      </li>
+    </ul>
+    <p>
+      &#160;&#160;&#160;&#160;&#21024;&#38500;chunk
+    </p>
+    <ul>
+      <li>
+        master&#25195;&#25551;chunk&#30340;namespace&#65292;&#26631;&#35760;&#23396;&#20799;chunk&#65288;&#20174;&#20219;&#20309;&#25991;&#20214;&#37117;&#19981;&#21487;&#36798;&#30340;chunk&#65289;
+      </li>
+      <li>
+        master&#21024;&#38500;&#36825;&#20123;chunk&#30340;metadata
+      </li>
+      <li>
+        &#27599;&#27425;HEARTBEAT&#26102;&#65292;chunkserver&#25253;&#21578;&#23427;&#25345;&#26377;&#30340;chunk&#30340;&#23376;&#38598;&#65292;master&#25226;&#25152;&#26377;&#24050;&#19981;&#22312;metadata&#20013;&#30340;chunk id&#22238;&#22797;&#32473;chunkserver
+      </li>
+      <li>
+        chunkserver&#33258;&#24049;&#20915;&#23450;&#24590;&#20040;&#22788;&#29702;(free to delete)&#36825;&#20123;chunk&#30340;replica
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1359011223023" ID="ID_376754899" MODIFIED="1359011438266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25152;&#26377;&#30340;chunk&#30340;&#24341;&#29992;&#37117;&#20445;&#23384;&#22312;<b>master&#19987;&#26377;&#30340;file-&gt;chunk&#30340;map</b>&#37324;&#65292;&#36825;&#26679;&#23601;&#21487;&#20197;&#36731;&#26131;&#35782;&#21035;&#20986;&#25152;&#26377;chunk&#30340;replica&#65306;&#23427;&#20204;&#37117;&#26159;chunkserver&#19978;&#25351;&#23450;&#30446;&#24405;&#19979;&#30340;&#25991;&#20214;&#12290;&#25152;&#26377;master&#19981;&#30693;&#36947;&#30340;replica&#37117;&#26159;&#8220;&#22403;&#22334;&#8221;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1359012001274" FOLDED="true" ID="ID_1171331723" MODIFIED="1359012301518" TEXT="stale replica detection">
+<node CREATED="1359012017294" ID="ID_474429817" MODIFIED="1359012296124">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      master&#32500;&#25252;&#19968;&#20010;&#29256;&#26412;&#21495;&#26469;&#21306;&#20998;&#23454;&#26102;&#30340;replica&#21644;stale replica
+    </p>
+    <ul>
+      <li>
+        master&#21521;chunk&#25480;&#20104;&#26032;&#30340;lease&#26102;&#65292;&#20250;&#33258;&#22686;&#29256;&#26412;&#21495;&#24182;&#36890;&#30693;&#25152;&#26377;&#30340;&#23454;&#26102;replica&#12290;master&#21644;&#25152;&#26377;&#23454;&#26102;replica&#37117;&#20250;&#25345;&#20037;&#21270;&#20445;&#23384;&#36825;&#20010;&#29256;&#26412;&#21495;&#12290;
+      </li>
+      <li>
+        &#36825;&#20010;&#21160;&#20316;&#22312;&#36890;&#30693;client&#20043;&#21069;&#65292;&#33258;&#28982;&#32780;&#28982;&#20063;&#22312;&#24320;&#22987;&#24448;chunk&#20013;&#20889;&#20043;&#21069;&#12290;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1359012334470" ID="ID_1228691955" MODIFIED="1359013135121" POSITION="left" TEXT="fault tolerance &amp; diagnosis">
+<node CREATED="1359012386676" ID="ID_1340890018" MODIFIED="1359012388616" TEXT="HA">
+<node CREATED="1359012399789" ID="ID_1662144783" MODIFIED="1359012404679" TEXT="fast recovery"/>
+<node CREATED="1359012405278" ID="ID_435017101" MODIFIED="1359012411064" TEXT="chunk replication"/>
+<node CREATED="1359012525174" ID="ID_612293527" MODIFIED="1359012529420" TEXT="master replication">
+<node CREATED="1359012542790" ID="ID_520735924" MODIFIED="1359013124103">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        state
+      </li>
+      <li>
+        operation log
+      </li>
+      <li>
+        checkpoint
+      </li>
+    </ul>
+    <p>
+      master&#25346;&#20102;&#20063;&#21487;&#20197;&#36890;&#36807;&#23384;&#20648;&#22312;replica&#19978;&#30340;log&#37325;&#26032;&#29983;&#25104;&#19968;&#20010;
+    </p>
+    <p>
+      client&#29992;canonical name&#26469;&#35775;&#38382;master&#65288;&#22914;gfs-test&#65289;&#65292;&#36825;&#26679;&#21363;&#20351;master&#25442;&#26426;&#22120;&#20102;&#65292;&#25913;&#19968;&#19979;dns&#21363;&#21487;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1359013135122" ID="ID_951194716" MODIFIED="1359013144282" TEXT="data integrity">
+<node CREATED="1359014660429" ID="ID_797447471" MODIFIED="1359016344368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#20010;chunkserver&#37117;&#35201;&#32500;&#25252;checksum&#26469;&#29420;&#31435;&#39564;&#35777;&#23427;&#33258;&#24049;&#25968;&#25454;&#30340;&#23436;&#25972;&#24615;&#12290;
+    </p>
+    <p>
+      chunk&#34987;&#20998;&#20026;&#33509;&#24178;64kb&#30340;block&#65292;&#27599;&#20010;block&#26377;&#20010;32&#20301;&#30340;checksum
+    </p>
+    <p>
+      &#23545;append&#26102;&#37325;&#31639;checksum&#36827;&#34892;&#20102;&#20248;&#21270;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>

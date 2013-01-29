@@ -4,7 +4,7 @@
 <node CREATED="1359353432033" ID="ID_358707771" MODIFIED="1359353996781" POSITION="right" TEXT="Indroduction">
 <node CREATED="1359353592991" ID="ID_1502947953" MODIFIED="1359353618595" TEXT="map &amp; reduce primitives present in FP such as Lisp"/>
 </node>
-<node CREATED="1359353983934" FOLDED="true" ID="ID_229637205" MODIFIED="1359357718216" POSITION="right" TEXT="Programming Model">
+<node CREATED="1359353983934" ID="ID_229637205" MODIFIED="1359440647472" POSITION="right" TEXT="Programming Model">
 <node CREATED="1359354013773" ID="ID_12090844" MODIFIED="1359354016103" TEXT="Map">
 <node CREATED="1359354107852" ID="ID_1224957508" MODIFIED="1359354126404" TEXT="Input: a pair "/>
 <node CREATED="1359354129242" ID="ID_296557279" MODIFIED="1359354150491" TEXT="Output: a set of intermediate k/v pairs."/>
@@ -83,7 +83,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359357723736" FOLDED="true" ID="ID_1000880167" MODIFIED="1359367396477" POSITION="right" TEXT="Implementation">
+<node CREATED="1359357723736" ID="ID_1000880167" MODIFIED="1359440640152" POSITION="right" TEXT="Implementation">
 <node CREATED="1359358282627" ID="ID_1618599393" MODIFIED="1359358299950" TEXT="summary">
 <node CREATED="1359358304402" ID="ID_1680982690" MODIFIED="1359358417356">
 <richcontent TYPE="NODE"><html>
@@ -136,8 +136,7 @@
       <img src="../选区_007.png" />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1359359619754" ID="ID_410247353" MODIFIED="1359362441490" TEXT="&#x7528;&#x6237;&#x7a0b;&#x5e8f;&#x4e2d;&#x7684;MapReduce&#x5e93;&#x628a;&#x8f93;&#x5165;&#x6587;&#x4ef6;&#x5212;&#x5206;&#x4e3a;M&#x4efd;&#xff0c;&#x6bcf;&#x4efd;16m&#xff5e;64m&#x3002;&#x7136;&#x540e;&#x5728;&#x96c6;&#x7fa4;&#x4e2d;&#x7684;&#x591a;&#x4e2a;&#x673a;&#x5668;&#x4e0a;&#x5f00;&#x542f;&#x591a;&#x4efd;&#x7a0b;&#x5e8f;&#x7684;&#x62f7;&#x8d1d;&#x3002;">
 <icon BUILTIN="full-1"/>
 </node>
@@ -186,8 +185,7 @@
       map&#20989;&#25968;&#20135;&#29983;&#30340;&#20013;&#38388;k/v pair&#22312;&#20869;&#23384;&#20013;&#32531;&#23384;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1359360164615" ID="ID_1398809881" MODIFIED="1359362448481">
@@ -206,8 +204,7 @@
       <b>master</b>&#36127;&#36131;&#21521;<b>&#25152;&#26377;reduce workers</b>&#36716;&#21457;&#36825;&#20123;&#20301;&#32622;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-4"/>
 </node>
 <node CREATED="1359360306336" ID="ID_1401425744" MODIFIED="1359362451505">
@@ -231,8 +228,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-5"/>
 </node>
 <node CREATED="1359362263336" ID="ID_1574066324" MODIFIED="1359362453889">
@@ -250,8 +246,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-6"/>
 </node>
 <node CREATED="1359362382904" ID="ID_166359608" MODIFIED="1359362456105" TEXT="&#x6240;&#x6709;&#x7684;map&#x548c;reduce task&#x90fd;&#x5b8c;&#x6210;&#x540e;&#xff0c;master&#x5524;&#x9192;&#x7528;&#x6237;&#x8fdb;&#x7a0b;&#x3002;&#x8fd9;&#x65f6;&#x6574;&#x4e2a;map/reduce&#x8c03;&#x7528;&#x7ed3;&#x675f;&#xff0c;&#x8fd4;&#x56de;&#x5230;&#x7528;&#x6237;&#x7684;&#x4ee3;&#x7801;&#x3002;">
@@ -285,8 +280,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1359363188761" ID="ID_1745983870" MODIFIED="1359363383384">
 <richcontent TYPE="NODE"><html>
@@ -298,8 +292,7 @@
       <font size="5"><b>Fault Tolerance</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1359363384785" ID="ID_1608223270" MODIFIED="1359363843636">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -324,8 +317,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1359363845584" ID="ID_501116419" MODIFIED="1359363948054">
 <richcontent TYPE="NODE"><html>
@@ -345,8 +337,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1359364200019" ID="ID_888583277" MODIFIED="1359364896149">
 <richcontent TYPE="NODE"><html>
@@ -372,8 +363,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1359366761382" ID="ID_1255857091" MODIFIED="1359366829134">
@@ -386,8 +376,7 @@
       <font size="5"><b>Locality</b></font>&#65306; &#19968;&#20999;&#23601;&#36817;&#21407;&#21017;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1359366891756" ID="ID_823650245" MODIFIED="1359367232478">
 <richcontent TYPE="NODE"><html>
@@ -414,8 +403,7 @@
       &#160;&#160;&#160;&#160;&#22914;M=200&#65292;000&#65292;&#160;&#160;&#160;R = 5000&#65292; machines = 2000
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1359367364250" ID="ID_1876559932" MODIFIED="1359367372941" TEXT="Backup Tasks: &#x73b0;&#x5728;&#x770b;&#x4e0d;&#x8fdb;&#x53bb;&#x4e86;"/>
 </node>
@@ -435,8 +423,7 @@
       &#20445;&#35777;&#22312;&#21010;&#20998;&#20989;&#25968;&#20869;&#65292;&#20013;&#38388;&#30340;k/v pair&#26159;&#25353;&#29031;key&#30340;&#22686;&#24207;&#22788;&#29702;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1359367653146" ID="ID_571548304" MODIFIED="1359367665381">
@@ -449,8 +436,7 @@
       Combiner Function
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1359367702850" ID="ID_1736545234" MODIFIED="1359368769387">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -472,12 +458,40 @@
       </li>
     </ul>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1359368780885" ID="ID_975408691" MODIFIED="1359368788655" TEXT="Input &amp; Output Types"/>
+<node CREATED="1359368840892" ID="ID_1399342265" MODIFIED="1359368846026" TEXT="Side-effects">
+<node CREATED="1359426613438" ID="ID_1341093313" MODIFIED="1359426655420" TEXT="&#x4e00;&#x4e2a;task&#x4ea7;&#x751f;&#x8f93;&#x51fa;&#x6587;&#x4ef6;&#x65f6;&#x6ca1;&#x6709;&#x63d0;&#x4f9b;&#x539f;&#x5b50;&#x7684;&#x4e24;&#x9636;&#x6bb5;&#x63d0;&#x4ea4;&#x5b9e;&#x73b0;&#xff0c;&#x6ca1;&#x592a;&#x5927;&#x5fc5;&#x8981;"/>
+</node>
+<node CREATED="1359426751155" ID="ID_279098341" MODIFIED="1359426756292" TEXT="skip bad record">
+<node CREATED="1359426790289" ID="ID_831968948" MODIFIED="1359426814806" TEXT="MR library&#x63d0;&#x4f9b;&#x4e86;&#x4e00;&#x79cd;&#x68c0;&#x6d4b;&#x5f02;&#x5e38;&#x8bb0;&#x5f55;&#x5e76;skip&#x7684;&#x673a;&#x5236;"/>
+<node CREATED="1359426815554" ID="ID_324206245" MODIFIED="1359427467810">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        work process&#23433;&#35013;&#19968;&#20010;&#25429;&#33719;&#24322;&#24120;&#30340;<b>handler</b>
+      </li>
+      <li>
+        &#22312;&#35843;&#29992;user&#30340;M/R&#25805;&#20316;&#20043;&#21069;&#65292;MR library&#20808;&#22312;&#20840;&#23616;&#21464;&#37327;&#20445;&#23384;&#19968;&#20010;<b>&#24207;&#21495;</b>&#65288;sequence number&#65289;&#12290;
+      </li>
+      <li>
+        &#22914;&#26524;user&#20195;&#30721;&#20135;&#29983;&#20102;&#19968;&#20010;<b>signal</b>&#65288;signal&#37117;&#26159;&#34920;&#31034;&#24322;&#24120;/&#20013;&#26029;&#20043;&#31867;&#65289;&#65292;handler&#20250;&#21521;master&#21457;&#36865;&#19968;&#20010;&#21253;&#21547;&#24207;&#21495;&#30340;&#8220;last gasp&#8221;<b>UDP</b>&#21253;&#12290;
+      </li>
+      <li>
+        master&#22914;&#26524;&#21457;&#29616;&#21333;&#20010;record&#19978;&#20986;&#29616;&#20102;&#22810;&#20110;1&#27425;&#30340;&#38169;&#35823;&#65292;&#23601;&#20250;&#35748;&#20026;&#24212;&#35813;skip&#35813;record
+      </li>
+    </ul>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1359368780885" ID="ID_975408691" MODIFIED="1359368788655" TEXT="Input &amp; Output Types"/>
-<node CREATED="1359368840892" ID="ID_1399342265" MODIFIED="1359368846026" TEXT="Side-effects"/>
 </node>
 </node>
 </map>

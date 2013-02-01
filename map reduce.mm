@@ -123,7 +123,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1359359280943" ID="ID_12939237" MODIFIED="1359363952476">
+<node CREATED="1359359280943" ID="ID_12939237" MODIFIED="1359698220333">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -133,10 +133,11 @@
       <b>step</b>
     </p>
     <p>
-      <img src="../选区_007.png" />
+      <img src="pic/选区_007.png" />
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1359359619754" ID="ID_410247353" MODIFIED="1359362441490" TEXT="&#x7528;&#x6237;&#x7a0b;&#x5e8f;&#x4e2d;&#x7684;MapReduce&#x5e93;&#x628a;&#x8f93;&#x5165;&#x6587;&#x4ef6;&#x5212;&#x5206;&#x4e3a;M&#x4efd;&#xff0c;&#x6bcf;&#x4efd;16m&#xff5e;64m&#x3002;&#x7136;&#x540e;&#x5728;&#x96c6;&#x7fa4;&#x4e2d;&#x7684;&#x591a;&#x4e2a;&#x673a;&#x5668;&#x4e0a;&#x5f00;&#x542f;&#x591a;&#x4efd;&#x7a0b;&#x5e8f;&#x7684;&#x62f7;&#x8d1d;&#x3002;">
 <icon BUILTIN="full-1"/>
 </node>
@@ -488,8 +489,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

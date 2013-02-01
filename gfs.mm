@@ -144,15 +144,18 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1358823638709" ID="ID_688471041" MODIFIED="1358823695028">
+<node CREATED="1358823638709" ID="ID_688471041" MODIFIED="1359698146768">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="../选区_004.png" />
+    <p>
+      <img src="pic/选区_004.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1358763595671" ID="ID_1756627843" MODIFIED="1358824031971" TEXT="Single Master">
@@ -205,15 +208,18 @@
 </node>
 <node CREATED="1358835455028" ID="ID_1754505401" MODIFIED="1358835462714" TEXT="Consistency Model">
 <node CREATED="1358835465214" ID="ID_83701019" MODIFIED="1358910279517" TEXT="Guarantees by GFS">
-<node CREATED="1358835479689" ID="ID_424876621" MODIFIED="1358837177318">
+<node CREATED="1358835479689" ID="ID_424876621" MODIFIED="1359698083634">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="../选区_005.png" />
+    <p>
+      <img src="pic/选区_005.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1358835498835" ID="ID_46663934" MODIFIED="1358836355225">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -345,15 +351,18 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1358922988613" ID="ID_453643826" MODIFIED="1358924153106">
+<node CREATED="1358922988613" ID="ID_453643826" MODIFIED="1359698093932">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="../选区_006.png" />
+    <p>
+      <img src="pic/选区_006.png" />
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1358923007151" ID="ID_1257499517" MODIFIED="1358923909889" TEXT="Client&#x95ee;master&#xff0c;chunk&#x5f53;&#x524d;lease(&#x5373;primary)&#x7684;&#x662f;&#x5728;&#x54ea;&#x4e2a;chunkserver&#x4e0a;&#xff0c;&#x4ee5;&#x53ca;&#x5176;&#x4ed6;replicas&#x7684;&#x4f4d;&#x7f6e;">
 <icon BUILTIN="full-1"/>
 </node>

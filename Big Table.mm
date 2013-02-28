@@ -30,7 +30,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1359688785557" FOLDED="true" ID="ID_121747557" MODIFIED="1361866192998" POSITION="right" TEXT="Data Model">
+<node CREATED="1359688785557" ID="ID_121747557" MODIFIED="1361947207259" POSITION="right" TEXT="Data Model">
 <node CREATED="1359688794915" ID="ID_92780811" MODIFIED="1359688821312" TEXT="sparse, distributed, persistent multi-dimensional sorted map">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -76,8 +76,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361865245449" ID="ID_115450112" MODIFIED="1361865593867">
@@ -104,8 +103,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361865612059" ID="ID_480149319" MODIFIED="1361865910654">
 <richcontent TYPE="NODE"><html>
@@ -128,8 +126,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361865914929" ID="ID_1648558540" MODIFIED="1361866191004">
 <richcontent TYPE="NODE"><html>
@@ -152,8 +149,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361866194280" ID="ID_1841709051" MODIFIED="1361866195871" POSITION="right" TEXT="API">
@@ -178,8 +174,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361866467585" ID="ID_674202795" MODIFIED="1361867112523" POSITION="right">
@@ -220,8 +215,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361867126695" ID="ID_1837000711" MODIFIED="1361867132872" POSITION="right" TEXT="Implementation">
 <node CREATED="1361867147385" ID="ID_1064872446" MODIFIED="1361867357204">
@@ -245,8 +239,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361867370227" ID="ID_1336707219" MODIFIED="1361867445597">
 <richcontent TYPE="NODE"><html>
@@ -261,10 +254,9 @@
       &#160;&#160;&#160;&#160;&#31649;&#29702;&#19968;&#31995;&#21015;tablet&#65292;&#21253;&#25324;&#36825;&#20123;tablet&#30340;&#35835;&#20889;&#35831;&#27714;&#12290;&#22914;&#26524;tablet&#22826;&#22823;&#20102;&#36824;&#35201;split
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1361868416881" FOLDED="true" ID="ID_687779397" MODIFIED="1361868653077">
+<node CREATED="1361868416881" ID="ID_687779397" MODIFIED="1361947194252">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -272,8 +264,7 @@
   <body>
     <img src="pic/选区_010.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1361868452473" ID="ID_1934847262" MODIFIED="1361868480193" TEXT="root tablet&#x6c38;&#x8fdc;&#x4e0d;&#x4f1a;split"/>
 <node CREATED="1361868480782" ID="ID_1698891539" MODIFIED="1361868549294" TEXT="METADATA&#x7684;row key&#x4ee5;tablet&#x7684;id&#x548c;end row&#x7f16;&#x7801;&#x751f;&#x6210;"/>
 <node CREATED="1361868586571" ID="ID_840798495" MODIFIED="1361868618628" TEXT="client&#x7f13;&#x5b58;tablet&#x7684;&#x4f4d;&#x7f6e;&#xff0c;&#x4e00;&#x65e6;&#x6709;&#x53d8;&#x5316;&#x5c31;&#x9012;&#x5f52;&#x91cd;&#x65b0;&#x83b7;&#x53d6;&#x4f4d;&#x7f6e;"/>
@@ -304,8 +295,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361869514329" ID="ID_35591473" MODIFIED="1361869909109">
 <richcontent TYPE="NODE"><html>
@@ -328,8 +318,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1361870342786" ID="ID_662529177" MODIFIED="1361870617239">
 <richcontent TYPE="NODE"><html>
@@ -355,8 +344,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361872975521" ID="ID_718121244" MODIFIED="1361872979666" TEXT="Refinements">
@@ -388,8 +376,7 @@
       &#36825;&#26679;&#21482;&#24819;&#35835;metadata&#30340;application&#26080;&#38656;&#35835;&#21462;&#25972;&#20010;&#39029;&#38754;&#20869;&#23481;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361873192515" ID="ID_201870144" MODIFIED="1361873196859" TEXT="Compression"/>
@@ -412,8 +399,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361873496919" ID="ID_349866229" MODIFIED="1361873503726" TEXT="Bloom filters">
@@ -442,8 +428,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1361875414256" ID="ID_994641522" MODIFIED="1361875427567" TEXT="tablet recovery">
@@ -468,8 +453,7 @@
       &#20004;&#27425;&#21387;&#32553;&#37117;&#26159;&#23545;server commit log&#36827;&#34892;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
